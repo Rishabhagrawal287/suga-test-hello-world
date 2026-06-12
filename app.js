@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3005;
 
 app.get('/', (req, res) => {
-  res.send('Hello World V2 - Zero-Downtime Test!');
+  res.send('Hello World V2 - Testing deployment at ' + new Date().toLocaleTimeString());
 });
 
 app.get('/health', (req, res) => {
