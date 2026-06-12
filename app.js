@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3005;
 
 app.get('/', (req, res) => {
-  res.send('Hello World from Suga on Windows!');
+  res.send('Hello World V2 - Zero-Downtime Test!');
 });
 
 app.get('/health', (req, res) => {
